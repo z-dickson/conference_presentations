@@ -106,8 +106,8 @@ format:
 
 <br>
 <img src="images/yougov_NHS_approval.png" 
-        width="850" 
-        height="590" 
+        width="800" 
+        height="500" 
         class="center"
         right="120"
         style="display: block; margin: auto" />
@@ -119,8 +119,8 @@ format:
 
 <br>
 <img src="images/yougov_healthcare_government_handling.png" 
-        width="850" 
-        height="590" 
+        width="800" 
+        height="500" 
         class="center"
         right="120"
         style="display: block; margin: auto" />
@@ -171,14 +171,14 @@ format:
         class="center"
         right="120"
         top="0"
-        width="900"
-        height="600"
+        width="800"
+        height="500"
         bottom="100"
         style="display: block; margin: auto" />
 </div>
 
 
-# Research Design - Data {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
+# Data {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
 
 - GP practice closures in England from NHS Digital
 - GP-Patient Survey from Ipsos 
@@ -187,7 +187,7 @@ format:
 - British Election Study Panel 
 - Annual data on migration from Office of National Statistics (ONS)
 
-# Research Design - Identification {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+# Causal Identification {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
 
 
 - We want to identify the causal effect of experiencing a GP practice closures 
@@ -208,8 +208,8 @@ format:
         class="center"
         right="120"
         top="0"
-        width="900"
-        height="600"
+        width="800"
+        height="500"
         bottom="100"
         style="display: block; margin: auto" />
 </div>
@@ -218,7 +218,7 @@ format:
 
 
 
-# Research Design - Estimation {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+# Estimation {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
 
 - We estimate the effect of GP practice closures on outcomes of interest using a variety of estimation strategies:
   + Matrix Completion [@athey2021matrix]
@@ -242,8 +242,8 @@ Results are presented as event series plots, where the event is the closure of a
 
 <div id="container">
 <img src="images/MC_estimate_patient_satisfaction_overall_and_apt.png" 
-        width="900" 
-        height="570" 
+        width="800" 
+        height="500" 
         class="center"
         right="0"
         style="display: block; margin: auto" />
@@ -260,8 +260,8 @@ The Effects of Practice Closures on Vote Intention for a Populist Right Party (U
 
 <div id="container">
 <img src="images/MC_estimates_RRW_vote_intention_USOC_data.png" 
-        width="1000" 
-        height="570" 
+        width="800" 
+        height="480" 
         class="center"
         right="0"
         style="display: block; margin: auto" />
@@ -276,8 +276,8 @@ The Effects of Practice Closures on Vote Intention for a Populist Right Party (B
 
 <div id="container">
 <img src="images/MC_estimates_RRW_vote_intention_BES_data_GP_closures.png" 
-        width="1000" 
-        height="570" 
+        width="800" 
+        height="480" 
         class="center"
         right="0"
         style="display: block; margin: auto" />
@@ -288,8 +288,8 @@ The Effects of Practice Closures on Vote Intention for a Populist Right Party (B
 
 <div id="container">
 <img src="images/MC_estimates_Labour_party.png" 
-        width="1000" 
-        height="570" 
+        width="800" 
+        height="500" 
         class="center"
         right="0"
         style="display: block; margin: auto" />
@@ -308,21 +308,21 @@ The Effects of Practice Closures on Vote Intention for a Populist Right Party (B
         style="display: block; margin: auto" />
 </div>
 
-# Who's to Blame for the Closures? {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+# Conditional Treatment Effects {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
 
 - The effects of declining public services are more pronounced when such declines can be linked to an increase in immigration 
 - When voters perceive that immigrants are competing for scarce public services, they are more likely to shift to the populist right
   - This is consistent with the populist right's anti-immigrant and nativist rhetoric 
 
 
-# Who's to Blame for the Closures? {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+# How Does UKIP Frame NHS Declines? {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
 
 - We use topic modeling to identify press releases from the UK Independence Party (UKIP) that mention the NHS 
 
 <div id="container">
 <img src="images/topic_model_output_ukip_NHS_press_releases.png" 
-        width="800" 
-        height="550" 
+        width="750" 
+        height="500" 
         class="center"
         right="0"
         style="display: block; margin: auto" />
@@ -337,8 +337,8 @@ The Effects of Practice Closures on Vote Intention for a Populist Right Party (B
 
 <div id="container">
 <img src="images/feature_importance_random_forests.png" 
-        width="950" 
-        height="500" 
+        width="850" 
+        height="450" 
         class="center"
         right="0"
         style="display: block; margin: auto" />
