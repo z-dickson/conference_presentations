@@ -1,5 +1,5 @@
 ---
-title: "Public Service Delivery and Support for the Populist Right"
+title: "Public Service Decline and Support for the Populist Right"
 subtitle: Evidence from England's National Health Service
 author: Zach Dickson (LSE)
 institute: Co-authored with Sara Hobolt (LSE), Catherine De Vries (Bocconi) & Simone Cremaschi (Bocconi)
@@ -40,21 +40,6 @@ format:
 
 
 
-# Public Service Delivery {auto-animate="true" link-color="#172c83" body-bg="white" cite-color="#172c83" height=100}
-
-- What is the relationship between deteriorating public services and support for right-wing populism?
-  - Literature on the drivers of populism have focused primarily on economic [@margalit2019economic] and cultural explanations [@norris2019cultural]
-  - Much less work on how direct experiences with poor public service provision may affect support
-
-- So how do voters respond to deteriorating public services?
-  - Do they punish the incumbent?
-  - Do they shift to the party that "owns" the issue of public services?
-  - Do they shift to the populist right?
-  - Are the effects of declines conditioned by other factors, such as immigration?
-
-
-
-
 # Public Service Delivery {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
 
 
@@ -66,21 +51,37 @@ format:
   - Even citizens uninterested or uninformed about politics are likely to have direct experiences with public services
 
 
-# Public Service Decline {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
+
+# Public Service Delivery {auto-animate="true" link-color="#172c83" body-bg="white" cite-color="#172c83" height=100}
+
+- Do diminishing public services increase support for right-wing populism?
+  - Literature on the drivers of populism have focused primarily on economic [@margalit2019economic] and cultural grievances [@norris2019cultural]
+  - Much less work on how direct experiences with poor public service provision may affect support
+  - The link between cultural and/or economic grievances and support for the populist right is well-established and obvious, but what about public services?
+- If public service decline creates grievances, how do voters respond?
+  - Do they punish the incumbent?
+  - Do they shift to the party that "owns" the issue of public services?
+  - Do they shift to the populist right?
+  - Are the effects of declines conditioned by other factors, such as immigration?
+
+
+
+
+# Our argument {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
 
 
 - Declines in public service delivery can generate public dissatisfaction and grievances 
-  - Citizens likely to punish the incumbent – but where do they go?
-- Shift to the populist right
-  - As a protest vote against the establishment for failure to provide core services
+- Shift to the populist right can occur for several reasons:
+  - As a protest vote against the establishment for failure to uphold the social contract
   - When linked with cultural arguments about competition for scarce public services with immigrants
     - Validates the populist right’s anti-immigrant rhetoric
 
 
-# Theoretical Expectations {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83" font-size="2em" font-type="serif"}
+# Expectations {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83" font-size="2em" font-type="serif"}
 
-1. A decline in core local public service delivery will increase support for the populist right among affected voters 
-2. The effects of declining public services are more pronounced when such declines can be linked to an increase in immigration
+1. Declining public services will reduce patients' reported experiences 
+2. Declining public services will increase support for the populist right among affected voters 
+  3. The effects of declining public services will be more pronounced when such declines can be linked to an increase in immigration
 
 
 
@@ -127,55 +128,7 @@ format:
         <em></em>
   
 
-# GP Practice Closures {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"} 
 
-
-::: columns
-
-:::: {.column width=40%}
-
-<br>
-
-- We focus on the closure of General Practitioner (GP) surgeries in England
-- GP practices are the key access point to the NHS and other medical services
-- Since 2013, nearly 1,700 practices have closed in England
-
-::::
-
-:::: {.column width=60%}
-
-
-
-<div id="container">
-<img src="images/GP_closures_2013_2021.png" 
-        class="center"
-        right="120"
-        top="0"
-        width="500"
-        height="600"
-        bottom="100"
-        style="display: block; margin: auto" />
-</div>
-
-::::
-
-:::
-
-
-# GP Practice Closures {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"} 
-
-- Millions of patients have been affected by practice closures
-
-<div id="container">
-<img src="images/patients_affected_by_closures.png" 
-        class="center"
-        right="120"
-        top="0"
-        width="800"
-        height="500"
-        bottom="100"
-        style="display: block; margin: auto" />
-</div>
 
 
 # Data {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
@@ -226,6 +179,57 @@ format:
   + Mahalanobis Matching [@imai2023matching]
   + Covariate-balancing Propensity Score Matching [@imai2014covariate]
   + Random Forests (for heterogenous treatment effects)
+
+
+# GP Practice Closures {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"} 
+
+
+::: columns
+
+:::: {.column width=40%}
+
+<br>
+
+- We focus on the closure of General Practitioner (GP) surgeries in England
+- GP practices are the key access point to the NHS and other medical services
+- Since 2013, nearly 1,700 practices have closed in England
+
+::::
+
+:::: {.column width=60%}
+
+
+
+<div id="container">
+<img src="images/GP_closures_2013_2021.png" 
+        class="center"
+        right="120"
+        top="0"
+        width="500"
+        height="600"
+        bottom="100"
+        style="display: block; margin: auto" />
+</div>
+
+::::
+
+:::
+
+
+# GP Practice Closures {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"} 
+
+- Millions of patients have been affected by practice closures
+
+<div id="container">
+<img src="images/patients_affected_by_closures.png" 
+        class="center"
+        right="120"
+        top="0"
+        width="800"
+        height="500"
+        bottom="100"
+        style="display: block; margin: auto" />
+</div>
 
 
 
